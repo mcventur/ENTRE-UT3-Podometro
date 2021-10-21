@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 /**
  * 
@@ -21,7 +21,7 @@ public class DemoPodometro {
     }
 
     /**
-     *  Configurar el pod�metro y registrar todas las caminatas
+     *  Configurar el podómetro y registrar todas las caminatas
      *  
      */
     public void iniciar() {
@@ -78,7 +78,7 @@ public class DemoPodometro {
 
     private void printMarca() {
         System.out.println("********************************************");
-        System.out.println("*******    Pod�metro " + podometro.getMarca().toUpperCase()
+        System.out.println("*******    Podómetro " + podometro.getMarca().toUpperCase()
             + "       *******");
         System.out.println("********************************************\n");
     }
@@ -90,7 +90,7 @@ public class DemoPodometro {
     }
 
     /**
-     * registrar los recorridos realizados en el pod�metro
+     * registrar los recorridos realizados en el podómetro
      */
     private void registrarCaminatas(int[] pasos, int[] dias, int[] horasInicio,
     int[] horasFin) {
@@ -104,8 +104,8 @@ public class DemoPodometro {
 
     private void mostrarEstadisticas() {
 
-        podometro.printEstad�sticas();
-        System.out.print("D�a/s con m�s pasos caminados: "
+        podometro.printEstadísticas();
+        System.out.print("Día/s con más pasos caminados: "
             + podometro.diaMayorNumeroPasos());
 
     }
