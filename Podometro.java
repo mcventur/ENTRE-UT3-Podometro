@@ -1,15 +1,15 @@
-Ôªø/**
- * La clase modela un sencillo pod√≥metro que registra informaci√≥n
+/**
+ * La clase modela un sencillo podÛmetro que registra informaciÛn
  * acerca de los pasos, distancia, ..... que una persona
  * ha dado en una semana. 
  * 
- * @author    - pon aqu√≠ tu nombre - 
+ * @author    - pon aquÌ tu nombre - 
  */
 public class Podometro {
     
 
     /**
-     * Inicializa el pod√≥metro con la marca indicada por el par√°metro.
+     * Inicializa el podÛmetro con la marca indicada por el par·metro.
      * El resto de atributos se ponen a 0 y el sexo, por defecto, es mujer
      */
     public Podometro() {
@@ -28,10 +28,10 @@ public class Podometro {
     }
 
     /**
-     * Simula la configuraci√≥n del pod√≥metro.
-     * Recibe como par√°metros la altura y el sexo de una persona
+     * Simula la configuraciÛn del podÛmetro.
+     * Recibe como par·metros la altura y el sexo de una persona
      * y asigna estos valores a los atributos correspondiente.
-     * Asigna adem√°s el valor adecuado al atributo longitudZancada
+     * Asigna adem·s el valor adecuado al atributo longitudZancada
      * 
      * (leer enunciado)
      *  
@@ -42,15 +42,15 @@ public class Podometro {
     }
 
      /**
-     *  Recibe cuatro par√°metros que supondremos correctos:
-     *    pasos - el n¬∫ de pasos caminados
-     *    dia - n¬∫ de d√≠a de la semana en que se ha hecho la caminata 
-     *              (1 - Lunes, 2 - Martes - .... - 6 - S√°bado, 7 - Domingo)
-     *    horaInicio ‚Äì hora de inicio de la caminata
-     *    horaFin ‚Äì hora de fin de la caminata
+     *  Recibe cuatro par·metros que supondremos correctos:
+     *    pasos - el n∫ de pasos caminados
+     *    dia - n∫ de dÌa de la semana en que se ha hecho la caminata 
+     *              (1 - Lunes, 2 - Martes - .... - 6 - S·bado, 7 - Domingo)
+     *    horaInicio ñ hora de inicio de la caminata
+     *    horaFin ñ hora de fin de la caminata
      *    
-     *    A partir de estos par√°metros el m√©todo debe realizar ciertos c√°lculos
-     *    y  actualizar√° el pod√≥metro adecuadamente  
+     *    A partir de estos par·metros el mÈtodo debe realizar ciertos c·lculos
+     *    y  actualizar· el podÛmetro adecuadamente  
      *   
      *   (leer enunciado del ejercicio)
      */
@@ -62,7 +62,7 @@ public class Podometro {
     }
     
      /**
-     * Muestra en pantalla la configuraci√≥n del pod√≥metro
+     * Muestra en pantalla la configuraciÛn del podÛmetro
      * (altura, sexo y longitud de la zancada)
      * 
      * (ver enunciado)
@@ -75,13 +75,13 @@ public class Podometro {
     }
 
     /**
-     * Muestra en pantalla informaci√≥n acerca de la distancia recorrida,
+     * Muestra en pantalla informaciÛn acerca de la distancia recorrida,
      * pasos, tiempo total caminado, ....
      * 
      * (leer enunciado)
      *  
      */
-    public void printEstad√≠sticas() {
+    public void printEstadÌsticas() {
 
         
 
@@ -90,8 +90,8 @@ public class Podometro {
    
 
     /**
-     *  Calcula y devuelve un String que representa el nombre del d√≠a
-     *  en el que se ha caminado m√°s pasos - "S√ÅBADO"   "DOMINGO" o  "LABORABLES"
+     *  Calcula y devuelve un String que representa el nombre del dÌa
+     *  en el que se ha caminado m·s pasos - "S¡BADO"   "DOMINGO" o  "LABORABLES"
      */
     public String diaMayorNumeroPasos() {
 
@@ -101,9 +101,9 @@ public class Podometro {
     
     
     /**
-     * Restablecer los valores iniciales del pod√≥metro
+     * Restablecer los valores iniciales del podÛmetro
      * Todos los atributos se ponen a cero salvo el sexo
-     * que se establece a MUJER. La marca no var√≠a
+     * que se establece a MUJER. La marca no varÌa
      *  
      */    
     public void reset() {
